@@ -159,7 +159,7 @@ python inference.py --infer_mode identify --classify_mode pair --pair_img_path [
 
 ## Experiment Results
 
-![figure1](E:\论文\iFBI\Github\images\figure1.png)
+![figure1](images/figure1.png)
 
 
 
