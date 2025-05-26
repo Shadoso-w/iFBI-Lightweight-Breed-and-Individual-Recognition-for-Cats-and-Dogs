@@ -11,7 +11,7 @@ Extensive experiments on two self-built datasets, Pet with Fine-grained Breed Da
 
 ## Overall Structure of Model
 
-![figure3](E:\论文\iFBI\Github\images\figure3.png)
+![figure3](images\figure3.png)
 
 
 
@@ -74,7 +74,7 @@ The aim of facial and positional preprocess is to eliminate the influence of fac
 2. Detect facial landmarks by CenterNet
 3. Align face landmarks with perspective changes by homologous transformation
 
-![figure5](E:\论文\iFBI\Github\images\figure5.png)
+![figure5](images\figure5.png)
 
 
 
@@ -83,7 +83,7 @@ The aim of facial and positional preprocess is to eliminate the influence of fac
 1. Detect body area by YOLOv8
 2. Pre-train model backbone by BPG
 
-![figure6](E:\论文\iFBI\Github\images\figure6.png)
+![figure6](images\figure6.png)
 
 
 
