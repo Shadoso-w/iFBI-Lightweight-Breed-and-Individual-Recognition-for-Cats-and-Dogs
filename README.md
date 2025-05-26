@@ -11,7 +11,7 @@ Extensive experiments on two self-built datasets, Pet with Fine-grained Breed Da
 
 ## Overall Structure of Model
 
-![figure3](images\figure3.png)
+![figure3](images/figure3.png)
 
 
 
@@ -74,7 +74,7 @@ The aim of facial and positional preprocess is to eliminate the influence of fac
 2. Detect facial landmarks by CenterNet
 3. Align face landmarks with perspective changes by homologous transformation
 
-![figure5](images\figure5.png)
+![figure5](images/figure5.png)
 
 
 
@@ -83,7 +83,7 @@ The aim of facial and positional preprocess is to eliminate the influence of fac
 1. Detect body area by YOLOv8
 2. Pre-train model backbone by BPG
 
-![figure6](images\figure6.png)
+![figure6](images/figure6.png)
 
 
 
@@ -100,7 +100,7 @@ Based on lightweight networks, fine-grained pet recognition technology can bette
 3. Combine the classification results of face and body branches by weighted average strategy
 4. Verify the model's fine-grained breed recognition performance on Oxford-IIIT Pet, Tsinghua Dogs, Stanford Dogs and Pet-FB
 
-<img src="E:\论文\iFBI\Github\images\figure8(a).png" alt="figure8(a)" style="zoom:18%;" />	  <img src="E:\论文\iFBI\Github\images\figure8(b).png" alt="figure8(b)" style="zoom:18%;" />
+<img src="images/figure8(a).png" alt="figure8(a)" style="zoom:18%;" />	  <img src="images/figure8(b).png" alt="figure8(b)" style="zoom:18%;" />
 
 
 
@@ -111,7 +111,7 @@ Based on lightweight networks, fine-grained pet recognition technology can bette
 3. Represent the individual-specific features by ERE
 4. Verify the model's individual recognition performance on DogFaceNet and Pet-DP
 
-<img src="E:\论文\iFBI\Github\images\figure7(a).png" alt="figure7(a)" style="zoom:18%;" />	<img src="E:\论文\iFBI\Github\images\figure7(b).png" alt="figure7(b)" style="zoom:18%;" />
+<img src="images/figure7(a).png" alt="figure7(a)" style="zoom:18%;" />	<img src="images/figure7(b).png" alt="figure7(b)" style="zoom:18%;" />
 
 
 
